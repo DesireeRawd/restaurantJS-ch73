@@ -49,7 +49,7 @@ console.log("div is: " + div);
 console.log("my name is " + firstName + " and i live in " + city);
 
 //option 2 - template literals (cleaner use '')
-console.log('My name is ${firstName} and I live in ${city}');
+console.log(`My name is ${firstName} and I live in ${city}`);
 
 //constants 
 // const = this value will never change
@@ -59,6 +59,8 @@ const pi = 3.14;
 console.log(daysInWeek)
 console.log(pi)
 
+// Challenge: Declare three variables using const and let that describe yourself:
+
 const name = "Desiree";
 const personality = "Friendly and chill";
 const favoriteActivity = "working out";
@@ -66,3 +68,8 @@ const favoriteActivity = "working out";
 console.log(name)
 console.log(personality)
 console.log(favoriteActivity)
+
+// Challenge 2: Detect and fix the error
+
+const city2 = "New York";
+console.log("I live in " + city2);
